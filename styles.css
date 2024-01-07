@@ -1,0 +1,275 @@
+/*globalni nastaveni barev pomoci promennych*/
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #9a9a9a;
+    --dark-mint: #2c7566;
+    --mint: #8bd2c4;
+    --dark-blue: #145679;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+.left-menu {
+    width: 20%;
+}
+
+.right-menu {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    color: var(--white); /*aplikace promenne, glob barva*/
+    margin: 0;
+}
+
+.nav-link {
+    padding: 14px;
+    font-size: 22px;
+}
+
+.nav-link.contact {
+    color: var(--black);
+    background: var(--white);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#image-header {
+    z-index: -1; /*obrazek jako vrstva v pozadí*/
+    position: absolute;/*ignor slementu na webu*/
+    width: 100%;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 48px;
+    color: var(--white);
+}
+
+.middle-arrow {
+    margin: auto;
+    display: block;
+}
+
+/*.gap {
+    background-position: center top;
+    height: 114px;
+    width: 100%;
+    margin: 0;
+    margin-top: 10%;
+    padding: 0;
+}
+ */
+
+.creatives-container {
+    height: 971px;
+}
+
+.band-container {
+    display: flex;
+}
+
+.band-left {
+    width: 150%;
+    text-align: left;
+    padding: 150px;
+}
+
+.egg-right {
+    width: 100%;
+    zoom: 1.3;
+}
+
+.second-heading {
+    font-weight: bold;
+    font-size: 48px;
+    display: flex;
+
+}
+
+
+.goblet-left {
+    text-align: left;
+    display: flex;
+    zoom: 1.34;
+}
+
+.audience-right {
+    width: 150%;
+    text-align: left;
+    padding: 150px;
+    zoom: 0.75;
+}
+
+.desc {
+    font-size: 22px;
+}
+
+.learn-more {
+    font-weight: bold;
+}
+
+.design-photo-container {
+    display: flex;
+}
+
+.photography {
+    background-image: url("images/desktop/image-photography.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 770px;
+
+}
+
+.graphic-design {
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-size: 100%;
+    width: 103%;
+    height: 770px
+}
+
+.graphic-heading {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 500px;
+    color: var(--dark-mint)
+}
+
+.photography-heading {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 500px;
+    color: var(--dark-blue);
+}
+
+
+.desc1 {
+    font-size: 22px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.client-testamonial-heading {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 120px;
+    font-size: 30px;
+    color: var(--grey)
+}
+
+.client-container {
+    display: flex;
+}
+
+.client-card {
+    align-content: center;
+    margin-bottom: 150px;
+}
+
+.client-desc {
+    font-size: 30px;
+    margin-inline: 100px;
+    text-align: center;
+}
+
+
+.client-card img {
+    border-radius: 100%;
+    margin-left: 43%;
+    height: 20%;
+    margin-bottom: 5%
+}
+
+
+.client-name {
+    font-size: 20px;
+    text-align: center;
+}
+
+.client-occupation {
+    text-align: center;
+    color: var(--grey)
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery-item img {
+    width: 100%;
+    display: flex;
+}
+
+.main-footer {
+    background: var(--mint);
+    height: 400px;
+}
+
+.main-footer-logo {
+    text-align: center;
+    padding: 40px;
+    color: var(--dark-mint);
+}
+
+.footer-links {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    padding-left: 40.5%;
+}
+
+.footer-link {
+    font-size: 20px;
+    margin-inline: 30px;
+    color: var(--dark-mint);
+    padding-bottom: 50px;
+}
+
+.social-icons {
+    list-style: none;
+    padding-left: 46.5%;
+    display: flex;
+    color: var(--dark-mint);
+}
+
+
+.fa-facebook-official{
+    margin: 10px;
+    color: var(--dark-mint);
+
+}
+
+.fa-instagram{
+    margin: 10px;
+    color: var(--dark-mint);
+}
+
+.fa-pinterest{
+    margin: 10px;
+    color: var(--dark-mint);
+}
+
+.fa-twitter{
+    margin: 10px;
+    color: var(--dark-mint);
+}
+
